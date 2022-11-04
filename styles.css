@@ -17,6 +17,23 @@
 
 body {
   font-family: var(--ff);
+  font-size: 62.5%;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 1px);
+}
+
+main {
+  max-width: 288px;
+  background-color: var(--white);
+}
+
+img {
+  width: 100%;
 }
 
 .attribution {
